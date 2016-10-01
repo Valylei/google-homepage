@@ -1,0 +1,140 @@
+.container {
+  position:relative;  
+}
+
+.header {
+  display:block;
+  margin:0;
+  height:34px;
+  width:100%;
+}
+
+.header ul {
+  list-style-type:none;
+  display:inline;
+}
+.header ul li, .header ul li a {
+  display:inline;
+  float:right;
+  text-align:right;
+  padding-top:4px;
+  padding-right:8px;
+  opacity: .75;
+  font-family:small arial, sans-serif;
+  font-weight:normal;
+  color:black;
+  text-decoration:none;
+}
+.header ul li a:hover {
+  text-decoration:underline;
+}
+
+.logo {
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  height:180px;
+  width:500px;
+  padding-bottom:2px;
+}
+
+.logo img {
+  height:180px;
+  width:500px;
+}
+
+
+
+.searchBarDiv {
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  width:45%;
+  position:relative;
+}
+
+.speakNow {
+  position:absolute;
+  height:95%;
+  width:35px;
+  border:1px solid green;
+  right:0;
+  top:0;
+}
+.speakNow:hover {
+  background-color:green;
+}
+
+.searchBarInput {
+  
+  width:98%;
+  height:34px;
+  font-family:arial, sans-serif;
+  font-size:16px;
+  color:#bbb;
+  padding-left:8px;
+  border:1px solid #b5b5b5;
+}
+
+.searchBarInput:active {
+  border-color:blue;
+}
+
+.tiles {
+  display:block;
+  padding-top:60px;
+  margin-left:auto;
+  margin-right:auto;
+  width:45%;
+}
+
+.tile1, .tile2, .tile3, .tile4, .tile5, .tile6, .tile7, .tile8 {
+  display:inline-block;
+  height:100px;
+  width:100px;
+  padding:15px;
+  background-color:#eee;
+  border:1px solid #ddd;
+  position:relative;
+}
+
+.tileIcon {
+  position:absolute;
+  top:2%;
+  left:2%;
+  height:20%;
+  width:20%;
+  border:1px solid blue;
+}
+
+div.tileClose {
+  z-index:999;
+  position:absolute;
+  top:2%;
+  right:2%;
+  height:20%;
+  width:20%;
+  border:1px dashed red;
+}
+
+div.tileClose:hover {
+  background-color:red;
+}
+
+.tileThumb {
+  position:absolute;
+  border:1px solid green;
+  bottom:2%;
+  left:2%;
+  right:2%;
+  height:70%;
+}
+
+.tileTitle {
+  position:absolute;
+  border:1px solid orange;
+  height:20%;
+  width:72.5%;
+  top:2%;
+  right:0;
+}
